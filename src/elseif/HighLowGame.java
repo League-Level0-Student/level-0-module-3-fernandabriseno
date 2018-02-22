@@ -5,6 +5,8 @@ package elseif;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class HighLowGame {
 
 	public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class HighLowGame {
 		// 11. do the following 10 times
 		
 			// 1. ask the user for a guess using a pop-up window, and save their response 
-
+JOptionPane.showInputDialog("Take a number guess!");
 			// 4. convert the users’ answer to an int (Integer.parseInt(string))
 			
 			// 5. if the guess is correct
