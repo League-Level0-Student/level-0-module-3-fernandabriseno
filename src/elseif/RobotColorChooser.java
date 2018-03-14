@@ -38,9 +38,8 @@ rob.setPenColor(Color.cyan);
 if (color.equals("purple")) {
 rob.setPenColor(184, 152, 249); 
 }   
-if (color.equals("pink")) {
-rob.setPenColor(252, 103, 192); 
-}  
+
+
 
         //5. if the user doesn’t enter anything, choose a random color
 
