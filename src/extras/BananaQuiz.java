@@ -18,8 +18,8 @@ JOptionPane.showMessageDialog( null, "You are CRAAAZZZZYYY!!!! :)");
 		//3. if they say yes
 		//	ask them what is their favorite hobby
 		//	show a pop up that says "<your hobby> is much better with bananas!"
-JOptionPane.showInputDialog("Hmmm... okay.... What is your favorite hobby???:)"); 
-JOptionPane.showMessageDialog(null, "<hobby> is MUCH better than bananas!!!! :)");
+String hobby=JOptionPane.showInputDialog("Hmmm... okay.... What is your favorite hobby???:)"); 
+JOptionPane.showMessageDialog(null,hobby + " would be MUCH better with bananas!!!! :)");
 		//4. OPTIONAL: if they say something other than yes or no
 		//	show a pop up that says You are bananas!
 	
